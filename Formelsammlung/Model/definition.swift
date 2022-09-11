@@ -6,6 +6,16 @@
 //
 
 import Foundation
+import iosMath
 
 struct definition {
+    
+    let detaildefi = [
+        nameanddefi(n: "Winkel- und Seitenbeziehungen", d: "٭ Innenwinkelsumme:  "),
+        nameanddefi(n: "Mittelsenkrechte", d: ""),
+        nameanddefi(n: "Höhe", d: ""),
+        nameanddefi(n: "Winkelhalbierende", d: ""),
+        nameanddefi(n: "Seitenhalbierende", d: "")
+    ]
+    
 }

@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var name = ["Winkel- und Seitenbeziehungen", "Mittelsenkrechte", "Höhe", "Winkelhalbierende", "Seitenhalbierende"]
+    
     @IBOutlet weak var formelTableView: UITableView!
     
     override func viewDidLoad() {
@@ -44,7 +45,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController{
-            self.navigationController?.pushViewController(vc, animated: true    )
+            self.navigationController?.pushViewController(vc, animated: true)
         }
     }
 }
