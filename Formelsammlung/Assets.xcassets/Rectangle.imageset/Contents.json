@@ -1,23 +1,21 @@
 {
   "images" : [
     {
-      "filename" : "Winkel.jpg",
       "idiom" : "universal",
+      "filename" : "Rectangle.pdf",
       "scale" : "1x"
     },
     {
-      "filename" : "Winkel@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Winkel@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "author" : "xcode",
-    "version" : 1
+    "version" : 1,
+    "author" : "xcode"
   }
 }

@@ -45,6 +45,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController{
+            vc.img = UIImage(named: name[indexPath.row])!
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import iosMath
 
 struct definition {
     

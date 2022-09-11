@@ -9,13 +9,15 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var imgView: UIImageView!
-    @IBOutlet weak var namedetailLabel: UILabel!
-    @IBOutlet weak var definitionLabel: UILabel!
+   
+    @IBOutlet weak var imaMatheView: UIImageView!
+    
+    var img = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+         
+        imaMatheView.image = img
         // Do an additional setup after loading the view.
     }
     
