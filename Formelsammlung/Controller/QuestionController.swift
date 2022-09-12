@@ -8,7 +8,10 @@
 import UIKit
 
 class QuestionController: UIViewController {
+    
+    var questionNumberfirst = 0
 
+    
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     
@@ -24,10 +27,13 @@ class QuestionController: UIViewController {
         super.viewDidLoad()
 
         updateUI()
+      
     }
     
 
     @IBAction func answerButtonPressed(_ sender: UIButton) {
+        
+        
         
         let userAnswer = sender.currentTitle!
                 
@@ -38,15 +44,14 @@ class QuestionController: UIViewController {
         } else {
             sender.backgroundColor = UIColor.red
         }
-                
+        
         quizBrain.nextQuestion()
         
-                
         Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
-        
-        
+
     
     }
+
     
     @objc func updateUI(){
         
@@ -61,12 +66,12 @@ class QuestionController: UIViewController {
         progressBar.progress = quizBrain.getProgress()
         scoreLabel.text = "Score: \(quizBrain.getScore())"
         
+        
         // Reset Button
         answer1_label.backgroundColor = UIColor.clear
         answer2_Label.backgroundColor = UIColor.clear
         answer3_Label.backgroundColor = UIColor.clear
         
-            
     }
     
     

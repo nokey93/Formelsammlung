@@ -3,4 +3,130 @@
    uuid = "1BEC7B23-FFA0-41AB-A552-F7A99B1BB727"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C6262E4-AAE3-452D-B526-7575A2ACCEF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Formelsammlung/Controller/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Formelsammlung/Controller/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ResultViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82 - bca62be951a9098a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Formelsammlung.ResultViewController.result.getter : Swift.String"
+                  moduleName = "Formelsammlung"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenanhnguyen/Desktop/Formelsammlung/Formelsammlung/Formelsammlung/Controller/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82 - bffef512475b69a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Formelsammlung.ResultViewController.result.setter : Swift.String"
+                  moduleName = "Formelsammlung"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenanhnguyen/Desktop/Formelsammlung/Formelsammlung/Formelsammlung/Controller/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82 - f2aeefc3458bb18c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Formelsammlung.ResultViewController.result.modify : Swift.String"
+                  moduleName = "Formelsammlung"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenanhnguyen/Desktop/Formelsammlung/Formelsammlung/Formelsammlung/Controller/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82 - 21bc9c823333a054"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Formelsammlung.ResultViewController.result.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Formelsammlung"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenanhnguyen/Desktop/Formelsammlung/Formelsammlung/Formelsammlung/Controller/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82 - 16dad77da7aa34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Formelsammlung.ResultViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Formelsammlung.ResultViewController"
+                  moduleName = "Formelsammlung"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenanhnguyen/Desktop/Formelsammlung/Formelsammlung/Formelsammlung/Controller/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "6FC4F912-4286-4311-ADF2-7129120FFE82 - 7375fdfd623d6f6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Formelsammlung.ResultViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Formelsammlung.ResultViewController&gt;"
+                  moduleName = "Formelsammlung"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenanhnguyen/Desktop/Formelsammlung/Formelsammlung/Formelsammlung/Controller/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

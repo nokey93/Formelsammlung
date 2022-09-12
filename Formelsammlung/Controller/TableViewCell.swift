@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var name = ["Winkel- und Seitenbeziehungen", "Mittelsenkrechte", "Höhe", "Winkelhalbierende", "Seitenhalbierende"]
+    var name = ["Allgemeines Dreieck", "Gleichschenkliges Dreieck", "Gleichschenkliges rechtwinkliges Dreieck", "Gleichseitiges Dreieck", "Höhe", "Höhensatz", "Kathetensatz", "Kongruenzsätze 1", "Kongruenzsätze 2", "Mittelsenkrechte", "Pythagoras", "Rechtwinkliges Dreieck", "Seitenhalbierende", "Strahlensatz", "Winkel an parallelen Geraden", "Winkel- und Seitenbeziehungen", "Winkel", "Winkelhalbierende"]
     
     @IBOutlet weak var formelTableView: UITableView!
     

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Gleichschenkliges rechtwinkliges Dreieck.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Gleichschenkliges rechtwinkliges Dreieck@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Gleichschenkliges rechtwinkliges Dreieck@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

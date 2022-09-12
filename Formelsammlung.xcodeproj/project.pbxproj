@@ -19,7 +19,6 @@
 		DD98D55C28CE4EE00030A4E3 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98D55B28CE4EE00030A4E3 /* Questions.swift */; };
 		DD98D56028CE51550030A4E3 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98D55F28CE51550030A4E3 /* QuizBrain.swift */; };
 		DD98D56228CE91B30030A4E3 /* StartQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98D56128CE91B30030A4E3 /* StartQuestionViewController.swift */; };
-		DD98D56428CE945B0030A4E3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98D56328CE945B0030A4E3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		DD98D55B28CE4EE00030A4E3 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		DD98D55F28CE51550030A4E3 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		DD98D56128CE91B30030A4E3 /* StartQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartQuestionViewController.swift; sourceTree = "<group>"; };
-		DD98D56328CE945B0030A4E3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +105,6 @@
 				DD7AA0C228CA523D006A0002 /* DetailViewController.swift */,
 				DD98D55928CE46A70030A4E3 /* QuestionController.swift */,
 				DD98D56128CE91B30030A4E3 /* StartQuestionViewController.swift */,
-				DD98D56328CE945B0030A4E3 /* ResultViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,7 +185,6 @@
 				DD7AA0C328CA523D006A0002 /* DetailViewController.swift in Sources */,
 				DD98D55C28CE4EE00030A4E3 /* Questions.swift in Sources */,
 				DD36357428B4F58500F270D0 /* AppDelegate.swift in Sources */,
-				DD98D56428CE945B0030A4E3 /* ResultViewController.swift in Sources */,
 				DD36357628B4F58500F270D0 /* SceneDelegate.swift in Sources */,
 				DD98D56228CE91B30030A4E3 /* StartQuestionViewController.swift in Sources */,
 				DD98D55A28CE46A70030A4E3 /* QuestionController.swift in Sources */,

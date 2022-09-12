@@ -15,16 +15,16 @@ struct QuizBrain {
     
     
     let quiz = [
-        Question(q: "Which is the largest organ in the human body?", a: ["Heart", "Skin", "Large Intestine"], correctAnswer: "Skin"),
-        Question(q: "Five dollars is worth how many nickels?", a: ["25", "50", "100"], correctAnswer: "100"),
-        Question(q: "What do the letters in the GMT time zone stand for?", a: ["Global Meridian Time", "Greenwich Mean Time", "General Median Time"], correctAnswer: "Greenwich Mean Time"),
-        Question(q: "What is the French word for 'hat'?", a: ["Chapeau", "Écharpe", "Bonnet"], correctAnswer: "Chapeau"),
-        Question(q: "In past times, what would a gentleman keep in his fob pocket?", a: ["Notebook", "Handkerchief", "Watch"], correctAnswer: "Watch"),
-        Question(q: "How would one say goodbye in Spanish?", a: ["Au Revoir", "Adiós", "Salir"], correctAnswer: "Adiós"),
-        Question(q: "Which of these colours is NOT featured in the logo for Google?", a: ["Green", "Orange", "Blue"], correctAnswer: "Orange"),
-        Question(q: "What alcoholic drink is made from molasses?", a: ["Rum", "Whisky", "Gin"], correctAnswer: "Rum"),
-        Question(q: "What type of animal was Harambe?", a: ["Panda", "Gorilla", "Crocodile"], correctAnswer: "Gorilla"),
-        Question(q: "Where is Tasmania located?", a: ["Indonesia", "Australia", "Scotland"], correctAnswer: "Australia")
+        Question(q: "Innenwinkelsumme von gleichseitigen Dreieckt = ?", a: ["180°", "270°", "360°"], correctAnswer: "180°"),
+        Question(q: "Welche Eigenschaft gehört zu gleichseitigen Dreieck?", a: ["3 Seiten sind gleich", "2 Seiten sind gleich", "keine Seite ist gleich"], correctAnswer: "3 Seiten sind gleich"),
+        Question(q: "Was ist der Satz des Pythagora zwischen Katheten: a, b und Hypotenuse: c ?", a: ["a² - b² = c²", "a² + b² = c²", "c² - b² = a²"], correctAnswer: "a² + b² = c²"),
+        Question(q: "Innenwinkelsumme von Rechteck = ?", a: ["330°", "390°", "360°"], correctAnswer: "360°"),
+        Question(q: "Wie viele Kanten hat ein Würfel?", a: ["6 Kanten", "12 Kanten", "18 Kanten"], correctAnswer: "12 Kanten"),
+        Question(q: "Zwei Strecken a und b bilden einen rechten Winkel. Was sagt man?", a: ["a und b und senkrecht zueinander", "a und b sind parallel", "a und b sind winkelrecht"], correctAnswer: "a und b und senkrecht zueinander"),
+        Question(q: "In einem Rechteck ist die Seite a = 8 cm und eine Seite b = 10 cm. Wie groß ist sein Umfang??", a: ["18 cm", "24 cm", "36 cm"], correctAnswer: "36 cm"),
+        Question(q: "Wie heißt i der Geometrie eine gerade Linie mit einem Anfangspunkt und einem Endpunkt?", a: ["Strecke", "Strahl", "Gerade"], correctAnswer: "Strecke"),
+        Question(q: "Ein Quadrat hat eine Seitenlänge von 10 cm. Wie groß ist sein Umfang?", a: ["20 cm", "40 cm", "80 cm"], correctAnswer: "40 cm"),
+        Question(q: "Wie nennt man die Linie, die einen Winkel halbiert?", a: ["Tangente", "Senkrechte", "Winkelhalbierende"], correctAnswer: "Winkelhalbierende")
     ]
     
     
@@ -49,8 +49,9 @@ struct QuizBrain {
     mutating func nextQuestion() {
         if questionNumber + 1 < quiz.count {
             questionNumber += 1
-        } else {
+        }else {
             questionNumber = 0
+            score = 0
         }
     }
     

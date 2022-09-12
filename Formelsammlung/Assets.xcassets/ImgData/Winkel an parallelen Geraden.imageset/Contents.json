@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Winkel an parallelen Geraden.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Winkel an parallelen Geraden@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Winkel an parallelen Geraden@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
